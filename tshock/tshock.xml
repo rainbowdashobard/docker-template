@@ -10,9 +10,9 @@
    Docker container to run a Terraria Server with tShock. 
   </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/r/ryshe/terraria</Registry>
+  <Registry>https://hub.docker.com/r/spunkybear/docker-tshock</Registry>
   <GitHub>https://github.com/rainbowdashboard/tshock</GitHub>
-  <Repository>ryshe/terraria</Repository>
+  <Repository>spunkybear/docker-tshock</Repository>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
@@ -32,7 +32,7 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/tshock</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
         <Volume>

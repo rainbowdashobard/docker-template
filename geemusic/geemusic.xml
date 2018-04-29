@@ -10,9 +10,9 @@
    Yep its a docker template. 
   </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/r/spunkybear/docker-stevenleeg-geemusic</Registry>
-  <GitHub>https://github.com/stevenleeg/geemusic</GitHub>
-  <Repository>spunkybear/docker-stevenleeg-geemusic</Repository>
+  <Registry>https://hub.docker.com/r/spunkybear/docker-geemusic</Registry>
+  <GitHub>https://github.com/rainbowdashobard/docker-geemusic</GitHub>
+  <Repository>spunkybear/docker-geemusic</Repository>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>

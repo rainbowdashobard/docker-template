@@ -14,6 +14,13 @@
   <GitHub>https://github.com/rainbowdashobard/docker-geemusic</GitHub>
   <Repository>spunkybear/docker-geemusic</Repository>
   <Privileged>false</Privileged>
+    <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>

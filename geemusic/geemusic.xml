@@ -1,1 +1,32 @@
-https://github.com/stevenleeg/geemusic/blob/master/Dockerfile
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>GeeMusic</Name>
+  <Date>2018-04-29</Date>
+  <WebUI></WebUI>
+  <Description>
+    Unraid Docker container to run geeMusic by Stevenleeg.
+  </Description>
+  <Overview>
+   Yep its a docker template. 
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/r/spunkybear/docker-stevenleeg-geemusic</Registry>
+  <GitHub>https://github.com/stevenleeg/geemusic</GitHub>
+  <Repository>spunkybear/docker-stevenleeg-geemusic</Repository>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+  </Data>
+  <Banner></Banner>
+  <Icon>https://camo.githubusercontent.com/d9a3483960c9bd624961348df2aaa8b0cb09f5e9/687474703a2f2f692e696d6775722e636f6d2f764a73684d77572e706e67</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>

@@ -31,7 +31,25 @@
       </Port>
     </Publish>
   </Networking>
-  <Banner></Banner>
+  <Environment>
+    <Variable>
+      <Name>GOOGLE_EMAIL</Name>
+      <Value>cool email</Value>
+    </Variable>
+    <Variable>
+      <Name>GOOGLE_PASSWORD</Name>
+      <Value>secret password</Value>
+    </Variable>
+    <Variable>
+      <Name>APP_URL</Name>
+      <Value>https://alexa-geemusic.somewebsite.com</Value>
+    </Variable>
+    <Variable>
+      <Name>DEBUG_MODE</Name>
+      <Value>false</Value>
+    </Variable>
+  </Environment>
+    <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/rainbowdashobard/docker-geemusic/master/logo.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>

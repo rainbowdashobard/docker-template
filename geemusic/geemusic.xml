@@ -24,8 +24,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-  </Data>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/rainbowdashobard/docker-geemusic/master/logo.png</Icon>
   <ExtraParams></ExtraParams>

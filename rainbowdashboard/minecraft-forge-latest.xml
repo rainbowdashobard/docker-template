@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>TShock</Name>
+  <Date>2018-02-28</Date>
+  <WebUI></WebUI>
+  <Description>
+    Docker container to run a Terraria Server with tShock.
+  </Description>
+  <Overview>
+   Docker container to run a Terraria Server with tShock. 
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/r/spunkybear/docker-tshock</Registry>
+  <GitHub>https://github.com/rainbowdashboard/tshock</GitHub>
+  <Repository>spunkybear/docker-tshock</Repository>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>7777</HostPort>
+        <ContainerPort>7777</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/world</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/tshock</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/logs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/MulletBoy/terraria/master/Terraria_icon.jpg</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
